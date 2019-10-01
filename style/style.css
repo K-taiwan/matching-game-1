@@ -1,14 +1,36 @@
-/* * {
+/* 
+* LAYOUT
+*****************************************************/
+
+* {
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
 body {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     background: rebeccapurple;
-    
 }
+
+
+/* 
+* HEADER
+**************************************************/
+header {
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
 
 h1 {
     font-family: 'Luckiest Guy', cursive;
@@ -17,6 +39,12 @@ h1 {
     
 }
 
+
+body {
+    
+    background: rebeccapurple;
+    
+}
 
 .board-container {
     display: flex;
@@ -48,6 +76,15 @@ h1 {
 }*/
 
 
+
+/* 
+* FOOTER
+*****************************************************/
 footer {
-    display: block;
-} */
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    padding: 30px 20px 30px 20px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
