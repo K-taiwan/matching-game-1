@@ -32,7 +32,7 @@ header {
     z-index: 100;
 }
 .hero {
-    background: url('../image/AMG11.jpg') top center no-repeat;
+    background: url('../image/AMG111.jpg') top center no-repeat;
     background-size: cover;
     /* background-repeat: no-repeat; */
     width: 100%;
@@ -135,7 +135,7 @@ nav {
 }
 
 .lead {
-    font-family: serif;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 40px;
     text-transform: uppercase;
     color: #fff;
@@ -153,23 +153,35 @@ nav {
 }
 
 /* 
-* Cars Collection
+* RandomCar Pics
 *****************************************************/
-.cars {
+.AMG {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.cars img {
+.AMG img {
+    /* height: 250px; */
     max-width: 250px;
-    
-    margin-bottom: 10px;
+    object-fit: scale-down;
+    overflow: hidden; 
+    margin-bottom: 5px;
     transition: transform 0.5s, opacity 0.5s;
     cursor: pointer;
 }
 
-.cars img:hover {
+/* .AMG img {
+    position: relative;
+    float: left;
+    width:  250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+} */
+
+.AMG img:hover {
     transform: scale(1.15);
     opacity: 1;
 }
