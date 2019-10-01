@@ -82,16 +82,16 @@ const setUpRound = () => {
     $("#round").text("round: " + round);
   
     if (round === 1) {
-      createSquares(50);
+      createSquares(10);
       time = 30;
     } else if (round === 2) {
-      createSquares(100);
+      createSquares(20);
       time = 20;
     } else if (round === 3) {
-      createSquares(150);
+      createSquares(30);
       time = 10;
     } else {
-      createSquares(250);
+      createSquares(40);
       time = 10;
     }
   };

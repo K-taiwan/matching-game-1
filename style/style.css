@@ -127,13 +127,38 @@ nav {
 * Board Container
 **************************************************/
 .board-container {
-    display: flex;
+    width: 60%;
+    max-width: 600px;
+    min-width: 500px;
+    margin: 30px auto;
+    background: rebeccapurple;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    border:2px solid #fff;
+}
+
+
+.game-board{ 
+    background: white;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+    justify-content: center;
+}
+
+/* .board-container {
+
+    max-width: 980px;
+    max-height: 1000px;
+    padding: 3% 5%;
+    margin: 0 auto;
+    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background: #ccc;
-    height: 700px;
-    flex-wrap: wrap;
+    /* height: 700px; */
+  /*   flex-wrap: wrap;
     
 }
 
@@ -144,19 +169,19 @@ nav {
     font-size: 40px;
     border: 1px solid white;
     height: 100px;
-    flex-basis: 40%;
+    flex-basis: auto;
     order: 0;
-}
-
+} */
+ 
 
 
 /* 
 * ABOUT
 *****************************************************/
-.about {
+/* .about {
     font-size: 20px;
     line-height: 1.6;
-}
+} */
 
 .lead {
     font-family: 'Luckiest Guy', cursive;
@@ -167,14 +192,25 @@ nav {
 }
 
 /* 
+* Aside
+*****************************************************/
+aside {
+    float: right;
+}
+
+h3 span {
+    float: left;
+}
+/* 
 * Car Container
 *****************************************************/
 
-.container {
+.carcontainer {
     max-width: 980px;
     padding: 3% 5%;
     margin: 0 auto;
 }
+
 
 /* 
 * RandomCar Pics
@@ -187,8 +223,8 @@ nav {
 
 .AMG img {
     /* height: 250px; */
-    max-width: 250px;
-    object-fit: scale-down;
+    width: 288px;
+    /* object-fit: scale-down; */
     overflow: hidden; 
     margin-bottom: 5px;
     transition: transform 0.5s, opacity 0.5s;
