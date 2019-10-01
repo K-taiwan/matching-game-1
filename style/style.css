@@ -31,7 +31,7 @@ header {
     z-index: 100;
 }
 .hero {
-    background: url('../images/AMG11.jpg') top center no-repeat;
+    background: url('../image/AMG11.jpg') top center no-repeat;
     background-size: cover;
     /* background-repeat: no-repeat; */
     width: 100%;
