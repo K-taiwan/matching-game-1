@@ -139,9 +139,9 @@ nav {
 
 
 .game-board{ 
-    background: white;
+    background: #fff;
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
     justify-content: center;
 }

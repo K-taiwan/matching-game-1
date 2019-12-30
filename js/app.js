@@ -6,7 +6,7 @@ $("button").on("click", () => {
 });
 
 const createSquares = numberOfSquares => {
-    const $squares = $(".squares");
+    const $squares = $(".game-board");
     for (let i = 0; i < numberOfSquares; i++) {
       const $square = $("<div/>");
       $square.addClass("square");
